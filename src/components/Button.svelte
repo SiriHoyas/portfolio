@@ -6,7 +6,7 @@
 </script>
 
 {#if href}
-  <a class="btn {spacing} {variant}" href><slot /></a>
+  <a class="btn {spacing} {variant}" {href}><slot /></a>
 {:else}
   <button class="btn {spacing} {variant}" {type}><slot /></button>
 {/if}
