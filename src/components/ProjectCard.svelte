@@ -1,5 +1,5 @@
 <script>
-  const id = "Holidaze";
+  const id = 1;
 </script>
 
 <a href="/projects/{id}" class="container">
