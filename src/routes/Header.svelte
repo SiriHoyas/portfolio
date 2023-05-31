@@ -1,12 +1,13 @@
 <script>
   import Daisy from "../components/icons/Daisy.svelte";
+  import navbar from "./../routes/navbar.png";
 
   console.log("hello");
 </script>
 
 <header>
   <span class="background-container">
-    <img src="src/routes/navbar.png" alt="navbar" />
+    <img src={navbar} alt="navbar" />
   </span>
   <nav>
     <div class="link-container">
@@ -69,29 +70,5 @@
     margin: 0;
     margin-left: 0.4rem;
     margin-right: 2rem;
-  }
-
-  .logo-container {
-    margin-right: 2rem;
-    margin-top: 1rem;
-    text-decoration: none;
-  }
-
-  .logo-container p {
-    font-family: "Bungee", cursive;
-    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
-    color: #e9ad4e;
-    margin: 0;
-    font-size: 1.5rem;
-    text-decoration: none;
-  }
-
-  .subtitle {
-    text-align: end;
-  }
-
-  .subtitle-container {
-    display: flex;
-    justify-content: space-between;
   }
 </style>

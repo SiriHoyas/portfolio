@@ -33,7 +33,7 @@
     display: flex;
     background-color: #f4f4f4;
     border-radius: 10px 10px 0 0;
-    padding: 0.4rem;
+    padding: 0.7rem;
   }
   .circle {
     border-radius: 100%;
