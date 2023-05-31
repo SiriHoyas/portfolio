@@ -1,8 +1,8 @@
 <script>
-  const id = 1;
+  export let project;
 </script>
 
-<a href="/projects/{id}" class="container">
+<a href="/projects/{project.id}}" class="container">
   <div class="title">
     <div class="dot-container">
       <div class="circle circle1" />
@@ -11,11 +11,11 @@
     </div>
   </div>
   <div class="image-container">
-    <img alt="Siri" src="src/assets/holidazeThombnail.png" />
+    <img alt="Siri" src={project.media} />
   </div>
   <div class="footer">
-    <h2 class="project-title">Holidaze</h2>
-    <p class="description">owekfwopekfewpoekfpowefkpofwekfpeofkwfpeokwpoekfpwoekfpwokefp</p>
+    <h2 class="project-title">{project.title}</h2>
+    <p class="description">{project.description}</p>
   </div>
 </a>
 

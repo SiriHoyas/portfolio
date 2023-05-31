@@ -1,16 +1,12 @@
 <script>
   import ProjectCard from "../../components/ProjectCard.svelte";
+  import { projects } from "../../data/projects";
 </script>
 
 <main>
-  <ProjectCard />
-  <ProjectCard />
-  <ProjectCard />
-  <ProjectCard />
-  <ProjectCard />
-  <ProjectCard />
-  <ProjectCard />
-  <ProjectCard />
+  {#each Object.entries(projects) as [index, projects]}
+    <ProjectCard project={projects} />
+  {/each}
 </main>
 
 <style>

@@ -13,4 +13,18 @@ export const projects = [
     github: "",
     liveDemo: "",
   },
+  {
+    id: 2,
+    title: "WEEEE",
+    description: "-",
+    subject: "Project Exam 2",
+    grade: "-",
+    madeWidth: ["react", "Material UI"],
+    media: "/src/assets/holidazeThombnail.png",
+    primaryColor: "#385e97",
+    secondaryColor: "",
+    textColor: "",
+    github: "",
+    liveDemo: "",
+  },
 ];
