@@ -20,8 +20,8 @@
 <style>
   @import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap");
   .container {
-    height: 290px;
-    width: 250px;
+    height: 330px;
+    width: 290px;
     display: flex;
     flex-direction: column;
     border-radius: 6px;

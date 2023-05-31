@@ -19,13 +19,6 @@
         <p>Projects</p>
       </a>
     </div>
-    <a href="/" class="logo-container">
-      <p class="title">HEYSIRI</p>
-      <span class="subtitle-container">
-        <p>.</p>
-        <p class="subtitle">CODES</p>
-      </span>
-    </a>
   </nav>
 </header>
 
@@ -54,17 +47,17 @@
   }
   img {
     width: 100%;
-    height: 200px;
+    height: 110px;
   }
 
   .link-container {
     font-family: "Bungee", cursive;
-    margin-top: 1rem;
-    margin-left: 8rem;
+    margin-top: 1.3rem;
     display: flex;
+    margin-left: 3rem;
     align-items: center;
     height: fit-content;
-    font-size: 1.5rem;
+    font-size: 1.4rem;
     text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
   }
   .links {
@@ -87,9 +80,9 @@
   .logo-container p {
     font-family: "Bungee", cursive;
     text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
-    color: #f9da8f;
+    color: #e9ad4e;
     margin: 0;
-    font-size: 2rem;
+    font-size: 1.5rem;
     text-decoration: none;
   }
 
