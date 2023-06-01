@@ -22,7 +22,7 @@
   </section>
   <section class="information-container">
     <div class="profile-card-container">
-      <ProfileCard src={siri2} caption={"I love disc golf!"} sticker={star} />
+      <ProfileCard src={siri2} caption={"Fadderuke!"} sticker={star} />
     </div>
     <div class="information-card">
       <h2>I love coding</h2>
