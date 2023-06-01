@@ -44,7 +44,7 @@ export const projects = [
     liveDemo: "/",
   },
   {
-    id: 4,
+    id: 5,
     title: "ShopIt",
     description: "This was the first project with React. I also challenged myself and did the project with Typescript. Please note that the styling is minimal and not the focus for this project.",
     subject: "Frontend Frameworks",
@@ -56,7 +56,7 @@ export const projects = [
   },
 
   {
-    id: 1,
+    id: 6,
     title: "Holidaze",
     description: "The goal of this project is to develop a front-end for a venue booking site called Holidaze. While the required features are defined, the design and user experience are left open-ended, providing the freedom to plan, design, and build a modern application that meets the needs of both customers and administrators. The application consists of two main components: the customer-facing side, where users can browse and book holidays at various venues, and the admin-facing side, where registered users can manage venues and bookings. The project uses Noroffs internal API.",
     subject: "Project Exam 2",

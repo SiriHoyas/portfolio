@@ -15,7 +15,7 @@
   </div>
   <div class="footer">{caption}</div>
   <span class="sticker">
-    <img src={sticker} alt="sticker" />
+    <img class="sticker-svg" src={sticker} alt="sticker" />
   </span>
 </div>
 
@@ -53,7 +53,7 @@
   }
 
   .circle3 {
-    background-color: var(--dark-yellow);
+    background-color: #e9ad4e;
   }
 
   .image-container {
@@ -76,10 +76,12 @@
     font-size: 0.6rem;
   }
   .sticker {
+    position: absolute;
+    right: -20px;
+    top: 255px;
+  }
+  .sticker-svg {
     width: 59px;
     height: 59px;
-    position: absolute;
-    right: -10px;
-    top: 245px;
   }
 </style>
