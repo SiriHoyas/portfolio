@@ -1,5 +1,6 @@
 <script>
   import ProfileCard from "../../components/ProfileCard.svelte";
+  import siri1 from "./siri1.png";
 </script>
 
 <main>
@@ -11,7 +12,7 @@
       <p>It was quite a journey, and I even got selected as one of 30 people in the company with leadership potential, which led me to their leadership development program.</p>
     </div>
     <div class="profile-card-container">
-      <ProfileCard src={"./siri1.png"} caption={"Hello!"} sticker={"/src/components/icons/purpleFlower.svg"} />
+      <ProfileCard src={siri1} caption={"Hello!"} sticker={"/src/components/icons/purpleFlower.svg"} />
     </div>
   </section>
   <section class="information-container">
