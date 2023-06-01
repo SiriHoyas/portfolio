@@ -1,6 +1,11 @@
 <script>
   import ProfileCard from "../../components/ProfileCard.svelte";
-  import siri1 from "./siri1.png";
+  import siri1 from "./../../assets/siri1.png";
+  import siri2 from "./../../assets/siri2.png";
+  import siri3 from "./../../assets/siri3.png";
+  import purpleFlower from "./../../assets/purpleFlower.svg";
+  import star from "./../../assets/star.svg";
+  import sunflower from "./../../assets/sunflower.svg";
 </script>
 
 <main>
@@ -12,12 +17,12 @@
       <p>It was quite a journey, and I even got selected as one of 30 people in the company with leadership potential, which led me to their leadership development program.</p>
     </div>
     <div class="profile-card-container">
-      <ProfileCard src={"./siri1.png"} caption={"Hello!"} sticker={"/src/components/icons/purpleFlower.svg"} />
+      <ProfileCard src={siri1} caption={"Hello!"} sticker={purpleFlower} />
     </div>
   </section>
   <section class="information-container">
     <div class="profile-card-container">
-      <ProfileCard src={"/src/assets/siri2.png"} caption={"I love disc golf!"} sticker={"/src/components/icons/star.svg"} />
+      <ProfileCard src={siri2} caption={"I love disc golf!"} sticker={star} />
     </div>
     <div class="information-card">
       <h2>I love coding</h2>
@@ -36,7 +41,7 @@
       <p>Music holds a special place in my heart, and I find immense joy in attending concerts and immersing myself in different genres. It's a source of inspiration and relaxation for me, and I can't imagine life without it.</p>
     </div>
     <div class="profile-card-container">
-      <ProfileCard src={"/src/assets/siri3.png"} caption={"I love disc golf!"} sticker={"/src/components/icons/sunflower.svg"} />
+      <ProfileCard src={siri3} caption={"I love disc golf!"} sticker={sunflower} />
     </div>
   </section>
   <section class="information-container">
