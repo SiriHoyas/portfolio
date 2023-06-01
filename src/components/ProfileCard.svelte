@@ -1,5 +1,7 @@
 <script>
-  import RedFlower from "./icons/RedFlower.svelte";
+  export let caption;
+  export let src;
+  export let sticker;
 </script>
 
 <div class="container">
@@ -9,11 +11,11 @@
     <div class="circle circle3" />
   </div>
   <div class="image-container">
-    <img alt="Siri" src="src/assets/portrait.jpeg" />
+    <img alt="Siri" {src} />
   </div>
-  <div class="footer">That's me!</div>
+  <div class="footer">{caption}</div>
   <span class="sticker">
-    <RedFlower />
+    <img src={sticker} alt="sticker" />
   </span>
 </div>
 
@@ -72,5 +74,12 @@
     border-radius: 0 0 10px 10px;
     padding: 1rem;
     font-size: 0.6rem;
+  }
+  .sticker {
+    width: 59px;
+    height: 59px;
+    position: absolute;
+    right: -10px;
+    top: 245px;
   }
 </style>

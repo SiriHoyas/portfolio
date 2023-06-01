@@ -17,7 +17,7 @@
     </div>
   </section>
   <section class="about">
-    <ProfileCard />
+    <ProfileCard src={"/src/assets/portrait.jpeg"} sticker={"/src/components/icons/redFlower.svg"} caption={"Thats me!"} />
   </section>
 </main>
 

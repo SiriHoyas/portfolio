@@ -11,7 +11,7 @@
   </span>
   <nav>
     <a href="/">
-      <h2>Heysiri.codes</h2>
+      <h2 class="logo">Heysiri.codes</h2>
     </a>
     <div class="link-container">
       <a href="/" class="links">
@@ -56,10 +56,12 @@
 
   h2 {
     font-family: "Bungee", cursive;
+    font-size: 2rem;
     margin-left: 3rem;
     color: #f9da8f;
     text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
   }
+
   a {
     text-decoration: none;
   }
