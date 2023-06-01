@@ -12,7 +12,7 @@
       <p class="description">Welcome to my frontend developer portfolio! I'm a skilled developer passionate about crafting engaging user experiences with clean code. With expertise in HTML, CSS, JavaScript, and front-end frameworks, I bring websites to life.</p>
     </div>
     <div class="button-container">
-      <Button href="/projects" spacing="right" variant="secondary" class="projects-btn">Projects</Button>
+      <Button href="/projects" variant="secondary" class="projects-btn">Projects</Button>
       <Button href="/about" variant="primary">About me</Button>
     </div>
   </section>
@@ -28,6 +28,7 @@
     margin: 0 auto;
     margin-top: 7rem;
     width: 100%;
+    margin-bottom: 4rem;
   }
 
   .main-sticker {
@@ -81,8 +82,16 @@
     }
     .button-container {
       display: flex;
+      flex-direction: column;
+      align-items: center;
       justify-content: center;
       margin: 0 auto;
+      gap: 1rem;
+    }
+  }
+  @media screen and (max-width: 768px) {
+    main {
+      margin-top: -3rem;
     }
   }
 </style>

@@ -83,4 +83,31 @@
     margin-left: 0.4rem;
     margin-right: 3rem;
   }
+  @media screen and (max-width: 768px) {
+    nav {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    img {
+      height: 250px;
+    }
+    h2 {
+      text-align: center;
+      font-size: 1.7rem;
+      margin-left: 0;
+      margin-bottom: 0;
+    }
+    .link-container {
+      margin-top: 0;
+      display: flex;
+      align-items: center;
+      height: fit-content;
+      font-size: 1.4rem;
+      text-shadow: var(--text-shadow);
+    }
+    .links {
+      margin-top: 1rem;
+    }
+  }
 </style>

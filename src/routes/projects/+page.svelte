@@ -19,4 +19,14 @@
     grid-row-gap: 40px;
     margin-bottom: 4rem;
   }
+  @media screen and (max-width: 1180px) {
+    main {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+  @media screen and (max-width: 768px) {
+    main {
+      grid-template-columns: repeat(1, 1fr);
+    }
+  }
 </style>
