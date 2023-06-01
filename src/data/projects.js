@@ -62,7 +62,7 @@ export const projects = [
     subject: "Project Exam 2",
     grade: "NOT GRADED YET",
     madeWidth: ["React", "Material UI", "Vite", "Framer Motion"],
-    media: "/src/assets/holidazeThombnail.png",
+    media: "https://github.com/SiriHoyas/Holidaze/raw/main/src/assets/brand/thumbnail.png",
     github: "https://github.com/SiriHoyas/Holidaze",
     liveDemo: "https://holidaze-siri-hoyas.netlify.app/",
   },

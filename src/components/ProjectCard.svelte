@@ -11,7 +11,7 @@
     </div>
   </div>
   <div class="image-container">
-    <img alt="Siri" src={project.media} />
+    <img alt="project" src={project.media} />
   </div>
   <div class="footer">
     <h2 class="project-title">{project.title}</h2>
