@@ -1,7 +1,21 @@
+@import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bungee&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@400;500;600&display=swap");
+
+:root {
+  --light-yellow: #f8e8bc;
+  --medium-yellow: #f9da8f;
+  --dark-yellow: #e9ad4e;
+  --poison-green: #c1e5bb;
+  --first-run: #94ded3;
+
+  --text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
 body {
   margin: 0;
   padding: 0;
-  background-color: #f8e8bc;
+  background-color: var(--light-yellow);
 }
 main {
   padding: 0;

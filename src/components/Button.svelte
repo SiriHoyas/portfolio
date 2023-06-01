@@ -26,10 +26,10 @@
     width: fit-content;
   }
   .primary {
-    background-color: #c1e5bb;
+    background-color: var(--poison-green);
   }
   .secondary {
-    background-color: #94ded3;
+    background-color: var(--first-run);
   }
   .left {
     margin-left: 1rem;

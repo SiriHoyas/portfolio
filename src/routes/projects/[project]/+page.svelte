@@ -147,9 +147,6 @@
 </main>
 
 <style>
-  @import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap");
-  @import url("https://fonts.googleapis.com/css2?family=Bungee&display=swap");
-  @import url("https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@400;500;600&display=swap");
   main {
     width: 60%;
     margin: 0 auto;
@@ -189,7 +186,7 @@
   }
 
   .circle1 {
-    background-color: #c1e5bb;
+    background-color: var(--poison-green);
   }
 
   .circle2 {
@@ -209,8 +206,8 @@
     font-family: "Bungee", cursive;
     margin: 0;
     text-align: center;
-    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
-    color: #c1e5bb;
+    text-shadow: var(--text-shadow);
+    color: var(--poison-green);
     margin: 0;
     font-size: 2.5rem;
   }

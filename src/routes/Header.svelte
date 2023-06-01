@@ -27,8 +27,6 @@
 </header>
 
 <style>
-  @import url("https://fonts.googleapis.com/css2?family=Bungee&display=swap");
-
   header {
     background-color: transparent;
     display: flex;
@@ -58,8 +56,8 @@
     font-family: "Bungee", cursive;
     font-size: 2rem;
     margin-left: 3rem;
-    color: #f9da8f;
-    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    color: var(--medium-yellow);
+    text-shadow: var(--text-shadow);
   }
 
   a {
@@ -73,12 +71,12 @@
     align-items: center;
     height: fit-content;
     font-size: 1.4rem;
-    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    text-shadow: var(--text-shadow);
   }
   .links {
     display: flex;
     text-decoration: none;
-    color: #f9da8f;
+    color: var(--medium-yellow);
   }
   .links p {
     margin: 0;

@@ -76,7 +76,7 @@
   }
 
   .circle1 {
-    background-color: #c1e5bb;
+    background-color: var(--first-run);
   }
 
   .circle2 {

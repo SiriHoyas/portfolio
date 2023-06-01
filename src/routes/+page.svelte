@@ -22,8 +22,6 @@
 </main>
 
 <style>
-  @import url("https://fonts.googleapis.com/css2?family=Bungee&display=swap");
-  @import url("https://fonts.googleapis.com/css2?family=Montserrat+Alternates&display=swap");
   main {
     display: flex;
     justify-content: center;
@@ -47,8 +45,8 @@
   h1,
   h2 {
     font-family: "Bungee", cursive;
-    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
-    color: #e9ad4e;
+    text-shadow: var(--text-shadow);
+    color: var(--dark-yellow);
   }
   h1 {
     font-size: 3rem;

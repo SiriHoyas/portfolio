@@ -53,7 +53,7 @@
   }
 
   .circle3 {
-    background-color: #e9ad4e;
+    background-color: var(--dark-yellow);
   }
 
   .image-container {
