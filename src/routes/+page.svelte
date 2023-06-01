@@ -1,6 +1,8 @@
 <script>
   import Button from "../components/Button.svelte";
   import ProfileCard from "../components/ProfileCard.svelte";
+  import siri from "./../assets/portrait.jpeg";
+  import redFlower from "./../assets/redFlower.svg";
 </script>
 
 <main>
@@ -17,7 +19,7 @@
     </div>
   </section>
   <section class="about">
-    <ProfileCard src={"/src/assets/portrait.jpeg"} sticker={"/src/components/icons/redFlower.svg"} caption={"Thats me!"} />
+    <ProfileCard src={siri} sticker={redFlower} caption={"Thats me!"} />
   </section>
 </main>
 
