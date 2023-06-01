@@ -22,7 +22,7 @@
 <style>
   @import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap");
   .container {
-    height: 300px;
+    height: 320px;
     width: 350px;
     display: flex;
     flex-direction: column;
@@ -89,6 +89,7 @@
 
   .image-container {
     margin: 0;
+    height: 170px;
     display: flex;
   }
   .image-container img {
