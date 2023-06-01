@@ -10,6 +10,9 @@
     <img src={navbar} alt="navbar" />
   </span>
   <nav>
+    <a href="/">
+      <h2>Heysiri.codes</h2>
+    </a>
     <div class="link-container">
       <a href="/" class="links">
         <Daisy />
@@ -48,9 +51,18 @@
   }
   img {
     width: 100%;
-    height: 110px;
+    height: 130px;
   }
 
+  h2 {
+    font-family: "Bungee", cursive;
+    margin-left: 3rem;
+    color: #f9da8f;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  }
+  a {
+    text-decoration: none;
+  }
   .link-container {
     font-family: "Bungee", cursive;
     margin-top: 1.3rem;
@@ -69,6 +81,6 @@
   .links p {
     margin: 0;
     margin-left: 0.4rem;
-    margin-right: 2rem;
+    margin-right: 3rem;
   }
 </style>

@@ -13,7 +13,7 @@
     </div>
     <div class="button-container">
       <Button href="/projects" spacing="right" variant="secondary" class="projects-btn">Projects</Button>
-      <Button variant="primary">About me</Button>
+      <Button href="/about" variant="primary">About me</Button>
     </div>
   </section>
   <section class="about">
