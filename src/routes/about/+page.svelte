@@ -6,12 +6,12 @@
   <section class="information-container">
     <div class="information-card">
       <h1>Hi! I'm Siri</h1>
-      <p>Hey there! I'm a woman living in Kristiansand with my amazing husband.</p>
+      <p>Hey there! I'm a woman living in Kristiansand with my husband.</p>
       <p>I spent a good chunk of my career, around 10 years, in the consumer electronics industry. Starting as a part-time cashier, I worked my way up to become a department manager for operations.</p>
       <p>It was quite a journey, and I even got selected as one of 30 people in the company with leadership potential, which led me to their leadership development program.</p>
     </div>
     <div class="profile-card-container">
-      <ProfileCard src={"src/assets/siri1.png"} caption={"Hello!"} sticker={"/src/components/icons/purpleFlower.svg"} />
+      <ProfileCard src={"./../../../src/assets/siri1.png"} caption={"Hello!"} sticker={"/src/components/icons/purpleFlower.svg"} />
     </div>
   </section>
   <section class="information-container">
